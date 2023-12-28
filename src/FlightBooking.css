@@ -1,0 +1,54 @@
+.flight-booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.flight-booking-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width as needed */
+  max-width: 600px; /* Adjust maximum width as needed */
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-row input[type="text"],
+.input-row input[type="date"],
+.input-row select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-row input[type="date"]:disabled {
+  background-color: #f5f5f5;
+}
+
+.input-row label {
+  display: flex;
+  align-items: center;
+}
+
+.input-row label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
