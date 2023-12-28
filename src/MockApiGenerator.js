@@ -45,7 +45,6 @@ function generateRandomFlightData(countries) {
       departureDate: getRandomDate(startDate, endDate).toLocaleDateString(
         "en-US"
       ),
-      oneWay: Math.random() < 0.5, // Randomly determine if the flight is one-way
       arrivalTime: getRandomTime(),
       departureTime: getRandomTime(),
       flightTime: getRandomFlightDuration(),
