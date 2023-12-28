@@ -1,9 +1,10 @@
 import "./App.css";
+import SearchPage from "./SearchPage";
 
 function App() {
   return (
     <>
-      <p>Hello Amadeus!</p>
+      <SearchPage />
     </>
   );
 }
